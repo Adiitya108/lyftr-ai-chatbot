@@ -79,10 +79,10 @@ curl -X POST http://localhost:8000/chat \
 Each response includes `input_tokens` and `output_tokens` in the metadata. The UI displays these next to each AI reply.
 
 ## 5. Setup Used
-- **Editor**: Google Antigravity (AI-powered IDE)
-- **AI Tools**: Claude Sonnet 4.6 (Thinking) via Antigravity swarm
-- **Backend**: FastAPI + LiteLLM + aiosqlite + SQLite
-- **Frontend**: React + TypeScript + Vite
+- **Editor**: VS Code
+- **AI Tools**: GitHub Copilot
+- **Backend Stack**: Python 3.11, FastAPI, LiteLLM, aiosqlite, SQLite
+- **Frontend Stack**: React 18, TypeScript, Vite, Nginx
 
 ## 6. Bonus features
 - **System prompt override**: A system prompt field in the UI allows setting a custom system prompt per session
